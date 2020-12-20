@@ -139,7 +139,7 @@
     {
         this.position = { x: posX, y: posY };
         this.image = speed < 0 ? "spikesLeft" : "spikesRight";
-        this.killing = true;
+        this.killing = false;
         this.tickFunction = moveSpike(moveLength, speed);
         this.dynamic = true;
 
@@ -393,7 +393,7 @@
                     { x: 1056, y: 588 },
 
                 ],
-                killing: true,
+                killing: false,
             },
 
             {
@@ -403,7 +403,7 @@
                 ],
                 id: "movingSpikesLaby1",
                 tickFunction: moveSpikeLaby1,
-                killing: true,
+                killing: false,
             },
             {
                 position: { x: 460, y: 490 },
@@ -418,7 +418,7 @@
                 ],
                 id: "movingSpikesLaby2-1",
                 tickFunction: moveSpikeLaby2,
-                killing: true,
+                killing: false,
             },
 
             {
@@ -426,21 +426,21 @@
                 position: [
                     { x: 621, y: 591 },
                 ],
-                killing: true,
+                killing: false,
             },
             {
                 image: "spikeDown",
                 position: [
                     { x: 393, y: 215 },
                 ],
-                killing: true,
+                killing: false,
             },
             {
                 image: "spikeLeft",
                 position: [
                     { x: 406, y: 264 },
                 ],
-                killing: true,
+                killing: false,
             },
 
             {
@@ -457,7 +457,7 @@
                     { x: range(418, 672, 32), y: 279 },
                 ],
                 image: "spikesDown",
-                killing: true,
+                killing: false,
             },
 
             {
@@ -466,7 +466,7 @@
                     { x: 692, y: range(282, 404, 32) },
                 ],
                 image: "spikesLeft",
-                killing: true,
+                killing: false,
             },
 
             {
@@ -474,7 +474,7 @@
                     { x: 384, y: range(378, 500, 32) },
                 ],
                 image: "spikesRight",
-                killing: true,
+                killing: false,
             },
 
             {
@@ -486,7 +486,7 @@
             {
                 position: { x: -150, y: 400 },
                 shape: new Line(0, 0, 0, 400),
-                killing: true,
+                killing: false,
             },
 
 
@@ -533,7 +533,7 @@
                     { x: 270, y: 536 },
                 ],
                 image: "spikesLeft",
-                killing: true,
+                killing: false,
             },
 
 
@@ -558,7 +558,7 @@
                     { x: 32, y: 440 },
                 ],
                 image: "spikesRight",
-                killing: true,
+                killing: false,
             },
 
 
@@ -574,24 +574,24 @@
             {
                 position: { x: 312, y: range(184, 600, 32) },
                 image: "spikesRight",
-                killing: true,
+                killing: false,
             },
             {
                 position: { x: 342, y: range(184, 568, 32) },
                 image: "spikesLeft",
-                killing: true,
+                killing: false,
             },
 
 
             {
                 position: { x: range(352, 660, 32), y: 171 },
                 image: "spikesUp",
-                killing: true,
+                killing: false,
             },
             {
                 position: { x: 402, y: 588 },
                 image: "spikesUp",
-                killing: true,
+                killing: false,
             },
 
 
