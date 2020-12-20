@@ -1,6 +1,6 @@
 This is a hacked version of copy's "I Wanna Be Thy Copy" where nothing kills you. To inject this hacked version into the original version:
-1. Visit the original game page at https://copy.sh/iw and open the console by pressing F12
-2. In the console, enter: LEVEL_DIR = "https://raw.githubusercontent.com/canttinkoanam/iwbtc/master/levels"
+1. Install either Tampermonkey (https://tampermonkey.net/), Greasemonkey (https://greasespot.net/) or Violentmonkey (https://violentmonkey.github.io/). While Violentmonkey is recommended, Tampermonkey is better in terms of browser compatibility (it's available for 7 browsers, while Violentmonkey is only available for 3 browsers: Chrome, Firefox and Opera)
+2. Install the userscript: https://greasyfork.org/en/scripts/418893-iwbtc-hacks
 3. Enjoy!
 
 Original README:
