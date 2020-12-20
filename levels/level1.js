@@ -12,7 +12,7 @@
 
         this.spike = game.addObject({
             image: "spikeUp",
-            killing: true,
+            killing: false,
             x: this.x,
             y: this.y,
             tickFunction: moveHiddenSpike,
@@ -525,7 +525,7 @@
 
             {
                 image: "spikeLeft",
-                killing: true,
+                killing: false,
                 position: [
                     { x: 736, y: range(416, 1104, 32) },
                     { x: 96, y: 384 },
@@ -538,7 +538,7 @@
             },
             {
                 image: "spikeRight",
-                killing: true,
+                killing: false,
                 position: [
                     { x: 288, y: 250 },
                     { x: 448, y: 108 },
@@ -548,7 +548,7 @@
             },
             {
                 image: "spikeDown",
-                killing: true,
+                killing: false,
                 position: [
                     { x: range(128, 734, 32), y: 416 },
 
@@ -558,7 +558,7 @@
             },
             {
                 image: "spikeUp",
-                killing: true,
+                killing: false,
                 position: [
                     { x: range(32, 734, 32), y: 1136 },
                     { x: range(128, 736, 32), y: 352 },
@@ -653,7 +653,7 @@
             {
                 id: "bottomApple",
                 image: "apple",
-                killing: true,
+                killing: false,
                 position: { x: 775, y: 1130 }
             },
 
@@ -670,7 +670,7 @@
 
             {
                 dynamic: true,
-                killing: true,
+                killing: false,
                 image: "apple",
                 tickFunction: moveApple,
                 position: { x: 466, y: 880 },
@@ -693,7 +693,7 @@
                 id: "exitSpike",
                 position: { x: 320, y: 32 },
                 image: "spikeDown",
-                killing: true,
+                killing: false,
             },
                 
             {
